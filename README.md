@@ -79,7 +79,7 @@ Paper_Bag/
    flask db init
    flask db migrate -m "Initial migration"
    flask db upgrade
-   python seed.py  # Optional: Seed the database with sample data
+   python seed.py  # Optional
    ```
 
 ### Running the Application
@@ -90,9 +90,5 @@ python run.py
 
 The API will be available at `http://localhost:5000`
 
-## API Documentation
-
-Once the application is running, you can access the interactive API documentation at:
-- `http://localhost:5000/apidocs`
 
 
