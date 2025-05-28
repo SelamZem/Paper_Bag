@@ -25,3 +25,4 @@ pip-wheel-metadata/
 .pytest_cache/
 
 
+migrations/
